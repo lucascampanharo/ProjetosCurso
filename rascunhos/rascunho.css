@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  font-family: "VT323", monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.carta-stardew {
+  background-image: url("imagens/carta-stardew.png"); /* Altere para o nome correto da imagem */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 700px;
+  height: 500px;
+  padding: 60px 80px;
+  box-shadow: 0 0 20px #000;
+  color: #3b2e1e;
+  font-size: 22px;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  position: relative;
+  background-color: #f8ecd6;
+}
+
+.texto-carta {
+  overflow-y: auto;
+  height: 100%;
+}
+
+.botao-continuar {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  background-color: #bc4749;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-family: "VT323", monospace;
+  transition: background-color 0.3s ease;
+}
+
+.botao-continuar:hover {
+  background-color: #a63c3e;
+}
